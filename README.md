@@ -17,10 +17,46 @@
    I am still debating whether or not I should make this public as this might definitely have silly code and grammatical errors along with my use of personal images / videos for practice 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## What I've Learned So Far:
 
 - Week 1: 
     - HTML Basics: I started with the very basics: the `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>` tags. I learned how to create headings (`<h1>` to `<h6>`), paragraphs (`<p>`), and how to add line breaks (`<br>`). I even created my first simple webpage.
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
