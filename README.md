@@ -38,7 +38,7 @@
 - Week 1: 
     - HTML Basics: I started with the very basics: the `<!DOCTYPE html>`, `<html>`, `<head>`, and `<body>` tags. I learned how to create headings (`<h1>` to `<h6>`), paragraphs (`<p>`), and how to add line breaks (`<br>`). I even created my first simple webpage.
     - [Lists `<li>`](https://github.com/127jackie/Website/blob/main/week%201/Lists/LISTS.md#lists-li)
-    - [Tables `<table>`]()
+    - [Tables `<table>`](https://github.com/127jackie/Website/blob/main/week%201/Tables/TABLES.md)
 
 
 
