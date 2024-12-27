@@ -46,3 +46,5 @@
 ## Index Created
 - [index.html](https://github.com/127jackie/Website/blob/main/week%201/Tables/index.html)
 
+    - ![output of the my final result](tables_output.jpg)
+
