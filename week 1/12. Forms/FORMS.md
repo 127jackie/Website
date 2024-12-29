@@ -7,7 +7,7 @@
         - specifies if `GET` or `POST` request
         - `POST` is used for confidential information (ex, username password)
         - `GET` is for insensitive data
-- Elements in form:
+- Elements in Forms:
     - **textbox**, self closing `<input>` tag
         - text is default
         - other types such as passwords, emails, numbers
@@ -70,6 +70,8 @@
                 <label for="quantity">Quantity:</label>
                 <input type="number" id="quantity" min="0" max="99">
                 ```
+
+
     - **Radio**
         - these are used to select from a list, for example, the title of a person (Mr., Mrs., Miss, etc.)
         - A label is created followed by the input type "radio"
@@ -85,5 +87,65 @@
                 <input type="radio" id="PhD" value="PhD" name="title">
                 <label for="PhD">PhD</label>
                 ```
+
+
     - **Dropdown**
-        - 
+        - initialize label
+        - dropdown uses `<select> </select>` tags
+            - followed by `<option> </option>` tags 
+        - ```
+            <!-- Dropdown-->
+            <br>
+            <label for="payment">payment</label>
+            <select id="payment">
+                <option value="Visa">Visa</option>
+                <option value="Mastercard">Mastercard</option>
+                <option value="Giftcard">Giftcard</option>
+            </select>
+            ```
+
+
+    - **Checklist**
+        - initialize label
+        - uses "checklist" as input type
+            - `<input type="checklist">`
+        - ```
+            <!-- Checklist-->
+            <br>
+            <label for="Subscribe">Subscribe: </label>
+            <input type="checkbox" id="Subscribe">
+
+            <br>
+            <input type="reset"> <br>
+            <input type="submit">
+            ```
+        
+    - **Text Area**
+        - for a text area, `<textarea> </textarea>` tags are used instead of input tags
+        - ```
+            <!-- Text Area-->
+            <br>
+            <label for="comment">comment: </label>
+            <textarea id="comment"></textarea>
+            ```
+            - dimensions of text box can be adjusted by changing the rows and columns
+                - ```
+                    <textarea id="comment" rows="3" cols="25"></textarea>
+                    ```
+    
+    - **File Submission**
+    - initialize label
+        - uses "file" as input type
+            - `<input type="file">`
+        - button appears that opens file explorer to select file.
+        - by default, all types of files are accepted. conditions can be added to only take in specific file types. for this, we can use the accept attribute
+            - ```
+                <!-- File Submission-->
+                <br>
+                <label for="file">File: </label>
+                <input type="file" id="file" accept="image/png, image/jpeg">
+                ```
+
+> If a large amount of data is being sent (ex, image), encryption type needs to be changed (in opening form tag). Set encryption to `... enctype="multipart/form-data">`
+
+> when large data sent, it is broken into multiple parts. then, when data is received, those parts are reassembled 

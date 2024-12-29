@@ -8,34 +8,36 @@
 <body>
     <form action="index.php" method="POST">
 
+        <!-- Text (Username)-->
         <label for="Username">Username:</label>
         <input type="text" id="Username" placeholder="Spongebob" minlength="6" maxlength="15" required>
 
+        <!-- Password -->
         <br>
         <label for="password">password:</label>
         <input type="password" id="password" required>
 
+        <!-- Email -->
         <br>
         <label for="Email">Email:</label>
         <input type="email" id="email" placeholder="SSquarepants@gmail.com">
     
+        <!-- Tel-->
         <br>
         <label for="phone">Phone #:</label>
         <input type="tel" id="phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
 
+        <!-- Date -->
         <br>
         <label for="birthdate">Birthdate</label>
         <input type="date" id="birthdate">
 
+        <!-- Number -->
         <br>
         <label for="quantity">Quantity:</label>
         <input type="number" id="quantity" min="0" max="99">
 
-        <br>
-        <input type="reset"> <br>
-        <input type="submit">
-
-
+        <!-- Radio tags-->
         <br>
         <label for="title">Title:</label>
 
@@ -48,7 +50,35 @@
         <input type="radio" id="PhD" value="PhD" name="title">
         <label for="PhD">PhD</label>
         
+        <!-- Dropdown-->
+        <br>
+        <label for="payment">payment</label>
+        <select id="payment">
+            <option value="Visa">Visa</option>
+            <option value="Mastercard">Mastercard</option>
+            <option value="Giftcard">Giftcard</option>
+        </select>
+
+        <!-- Checklist-->
+        <br>
+        <label for="Subscribe">Subscribe: </label>
+        <input type="checkbox" id="Subscribe">
+
+        <!-- Text Area-->
+        <br>
+        <label for="comment">comment: </label>
+        <textarea id="comment" rows="3" cols="25"></textarea>
         
+        <!-- File Submission-->
+        <br>
+        <label for="file">File: </label>
+        <input type="file" id="file" accept="image/png, image/jpeg">
+
+        <br>
+        <input type="reset"> <br>
+        <input type="submit">
+        
+
     </form>
 </body>
 </html>
