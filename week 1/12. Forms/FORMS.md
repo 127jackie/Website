@@ -149,3 +149,5 @@
 > If a large amount of data is being sent (ex, image), encryption type needs to be changed (in opening form tag). Set encryption to `... enctype="multipart/form-data">`
 
 > when large data sent, it is broken into multiple parts. then, when data is received, those parts are reassembled 
+## Index - Form Output
+![visual of my form index](form_output.jpg)
