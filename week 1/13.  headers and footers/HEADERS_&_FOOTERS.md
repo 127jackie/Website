@@ -6,5 +6,8 @@
 - footers act as a container hold concluding content at bottom of the page
 
 - **Header** uses `<header> </header>` tags
-- **Footer** uses `<footer> </footer>` tages
+- **Footer** uses `<footer> </footer>` tags
 - suggested to put Main tags (`<main> </main>`) in between the footer and header tags for organization
+
+# Index - Header & Footer output
+![index output](h&f_output.jpg)
